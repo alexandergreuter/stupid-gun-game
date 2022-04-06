@@ -64,7 +64,6 @@ void function CreateGamemodeGG()
         GunGameWeapon ggSword        = { weapon = "melee_titan_sword",         offhandSlot = 0, ... }
         GunGameWeapon ggLeadwall     = { weapon = "mp_titanweapon_leadwall", ... }
         GunGameWeapon ggPlasma       = { weapon = "mp_titanweapon_sniper", ... }
-        GunGameWeapon ggParticle     = { weapon = "mp_titanweapon_particle_accelerator", ... }
         GunGameWeapon ggThermite     = { weapon = "mp_titanweapon_meteor", ... }
         GunGameWeapon gg40mm         = { weapon = "mp_titanweapon_sticky_40mm", ... }
         GunGameWeapon ggPredator     = { weapon = "mp_titanweapon_predator_cannon", ... }
@@ -135,7 +134,6 @@ void function CreateGamemodeGG()
 	    file.weapons.append(ggR201)
 	    file.weapons.append(ggG2)
 	    file.weapons.append(ggR101)
-        file.weapons.append(ggParticle)
 
 	    file.weapons.append(ggDevotion)
 	    file.weapons.append(ggLstar)
